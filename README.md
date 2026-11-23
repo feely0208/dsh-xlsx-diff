@@ -7,3 +7,11 @@ npx @deepwhale-cn/dsh-xlsx-diff --a 旧.xlsx --b 新.xlsx --key 单号 [--json] 
 ```
 
 退出码：无差异 → 0（CI 可用）。
+
+## 安装（DSH）
+
+```bash
+dsh plugin --profile web add @deepwhale-cn/dsh-xlsx-diff
+```
+
+也可以 `npm i @deepwhale-cn/dsh-xlsx-diff`，或从本仓库直接 `dsh plugin install ./`。
